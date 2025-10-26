@@ -11,7 +11,7 @@ namespace p2
         public static readonly Helper _instance=new Helper();
         public static Helper Instance=>_instance;
         public string[] MessageList { get; set; }
-        private Helper()
+        private Helper()   
         {
             
         }
